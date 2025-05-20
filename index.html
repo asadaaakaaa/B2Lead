@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2Lead - Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">B2Lead</div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#about" data-i18n="about">About</a></li>
+                    <li><a href="#services" data-i18n="services">Services</a></li>
+                    <li><a href="#portfolio" data-i18n="portfolio">Portfolio</a></li>
+                    <li><a href="#clients" data-i18n="clients">Clients</a></li>
+                    <li><a href="#testimonials" data-i18n="testimonials">Testimonials</a></li>
+                    <li><a href="#contact" data-i18n="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <div class="selected-language">
+                    <i class="fas fa-globe"></i>
+                    <span data-i18n="currentLang">English</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="language-dropdown">
+                    <li data-lang="en"><span>English</span> <i class="fas fa-check current-lang-check"></i></li>
+                    <li data-lang="ru"><span>Русский</span></li>
+                    <li data-lang="uz"><span>O'zbek</span></li>
+                </ul>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="#about" data-i18n="about">About</a></li>
+                <li><a href="#services" data-i18n="services">Services</a></li>
+                <li><a href="#portfolio" data-i18n="portfolio">Portfolio</a></li>
+                <li><a href="#clients" data-i18n="clients">Clients</a></li>
+                <li><a href="#testimonials" data-i18n="testimonials">Testimonials</a></li>
+                <li><a href="#contact" data-i18n="contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-i18n="heroTitle">Удвоим ваш поток клиентов за 30 дней с помощью точного digital-маркетинга. Без лишних слов — только результат!</h1>
+            <p data-i18n="heroSubtitle">Reliable digital marketing solutions to grow your business and strengthen your online presence.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary" data-i18n="getStarted">Get Started</a>
+                <a href="#about" class="btn btn-outline" data-i18n="learnMore">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="aboutTitle">About B2Lead</h2>
+                <p data-i18n="aboutDescription">B2Lead is a reliable digital marketing agency that helps businesses grow, strengthen their online presence, and attract their target audience. We provide comprehensive digital marketing solutions tailored to your specific needs.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://placehold.co/600x400" alt="B2Lead Team">
+                </div>
+                <div class="about-text">
+                    <h3 data-i18n="whyChooseUs">Why Choose Us?</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Proven track record of increasing client revenue</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Customized strategies for your specific business goals</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Transparent reporting and communication</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Dedicated team of digital marketing experts</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Results-driven approach with measurable outcomes</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div  class="container">
+            <div class="section-header">
+                <h2 data-i18n="servicesTitle">Our Services</h2>
+                <p data-i18n="servicesDescription">We offer a comprehensive range of digital marketing services to help your business thrive online.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Social Media Marketing (SMM)</h3>
+                    <p class="service-subtitle">Grow your brand presence on social platforms</p>
+                    <p>We help maintain and promote your business on social media platforms to increase engagement, brand awareness, and drive conversions.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Website Development</h3>
+                    <p class="service-subtitle">Custom websites that convert visitors</p>
+                    <p>From design to launch, we create responsive, user-friendly websites that represent your brand and drive business growth.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Google Ads</h3>
+                    <p class="service-subtitle">Targeted PPC campaigns that deliver ROI</p>
+                    <p>We configure and optimize Google Ads campaigns to drive qualified traffic to your website and maximize your advertising budget.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Facebook Ads</h3>
+                    <p class="service-subtitle">Precision-targeted social advertising</p>
+                    <p>Our targeted Facebook advertising strategies help you reach the right audience with compelling ad creative and messaging.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Search Engine Optimization (SEO)</h3>
+                    <p class="service-subtitle">Improve your organic visibility</p>
+                    <p>We optimize your website to rank higher in search engine results, driving more organic traffic and improving your online presence.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Digital Strategy</h3>
+                    <p class="service-subtitle">Comprehensive marketing plans</p>
+                    <p>We develop tailored digital marketing strategies that align with your business goals and target audience needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="portfolioTitle">Our Portfolio</h2>
+                <p data-i18n="portfolioDescription">Explore our successful projects and case studies.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x300?text=Project+1" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Project Title 1</h3>
+                        <p>Social Media Marketing</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x300?text=Project+2" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Project Title 2</h3>
+                        <p>Website Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x300?text=Project+3" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Project Title 3</h3>
+                        <p>Google Ads</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x300?text=Project+4" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Project Title 4</h3>
+                        <p>Facebook Ads</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x300?text=Project+5" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <h3>Project Title 5</h3>
+                        <p>SEO</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x300?text=Project+6" alt="Project 6">
+                    <div class="portfolio-overlay">
+                        <h3>Project Title 6</h3>
+                        <p>Digital Strategy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary" data-i18n="viewAllProjects">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="clientsTitle">Our Clients</h2>
+                <p data-i18n="clientsDescription">Trusted by businesses across various industries.</p>
+            </div>
+            <div class="clients-grid">
+                <div class="client-logo">
+                    <img src="https://placehold.co/200x100?text=Client+1" alt="Client 1">
+                </div>
+                <div class="client-logo">
+                    <img src="https://placehold.co/200x100?text=Client+2" alt="Client 2">
+                </div>
+                <div class="client-logo">
+                    <img src="https://placehold.co/200x100?text=Client+3" alt="Client 3">
+                </div>
+                <div class="client-logo">
+                    <img src="https://placehold.co/200x100?text=Client+4" alt="Client 4">
+                </div>
+                <div class="client-logo">
+                    <img src="https://placehold.co/200x100?text=Client+5" alt="Client 5">
+                </div>
+                <div class="client-logo">
+                    <img src="https://placehold.co/200x100?text=Client+6" alt="Client 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="testimonialsTitle">Client Testimonials</h2>
+                <p data-i18n="testimonialsDescription">See what our clients have to say about our services.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://placehold.co/100x100?text=Client" alt="Client">
+                    </div>
+                    <p class="testimonial-text">"B2Lead transformed our online presence. Their strategic approach to digital marketing has significantly increased our customer base and revenue."</p>
+                    <div class="testimonial-author">
+                        <h4>Client Name</h4>
+                        <p>Position, Company</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://placehold.co/100x100?text=Client" alt="Client">
+                    </div>
+                    <p class="testimonial-text">"Working with B2Lead has been a game-changer for our business. Their expertise in digital marketing has helped us reach new customers and grow our brand."</p>
+                    <div class="testimonial-author">
+                        <h4>Client Name</h4>
+                        <p>Position, Company</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://placehold.co/100x100?text=Client" alt="Client">
+                    </div>
+                    <p class="testimonial-text">"The team at B2Lead is professional, responsive, and results-driven. They've helped us achieve our marketing goals and exceed our expectations."</p>
+                    <div class="testimonial-author">
+                        <h4>Client Name</h4>
+                        <p>Position, Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="contactTitle">Contact Us</h2>
+                <p data-i18n="contactDescription">Get in touch with us to discuss your digital marketing needs.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contactInfo">Contact Information</h3>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <a href="tel:+998901252321" class="contact-label">Phone</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <a href="mailto:kozimbekraxmanaliyev@gmail.com" class="contact-label">Email</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <div>
+                                <a href="https://t.me/Kozimbek_Rv" target="_blank" class="contact-label">Telegram</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <a href="https://www.instagram.com/kozimbek_rv/?hl=en" target="_blank" class="contact-label">Instagram</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-facebook"></i>
+                            <div>
+                                <a href="https://www.facebook.com/kozimek.rv" target="_blank" class="contact-label">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 data-i18n="sendMessage">Send Us a Message</h3>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" data-i18n="name">Name</label>
+                                <input type="text" id="name" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-i18n="email">Email</label>
+                                <input type="email" id="email" placeholder="Your email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="phone">Phone Number</label>
+                            <input type="text" id="phone" placeholder="Your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>B2Lead</h3>
+                    <p data-i18n="footerDescription">Your reliable digital marketing partner for business growth and online success.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Social Media Marketing</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Google Ads</a></li>
+                        <li><a href="#">Facebook Ads</a></li>
+                        <li><a href="#">SEO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://t.me/Kozimbek_Rv" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/kozimbek_rv/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/kozimek.rv" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:kozimbekraxmanaliyev@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> B2Lead. <span data-i18n="allRightsReserved">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
